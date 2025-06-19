@@ -25,8 +25,10 @@ handleMessage m
   | "!" `T.isPrefixOf` messageContent m =
       case T.stripPrefix "!" (messageContent m) of
         Just "ping" -> sendMessage "Pong!"
-        Just "saluda" -> sendMessage "¡Hola! Soy un bot en Haskell."
+        Just "saludo" -> sendMessage "¡Hola! Soy un bot en Haskell."
         _ -> return ()
   | otherwise = return ()
   where
     sendMessage txt = void $ restCall (CreateMessage (messageChannelId m) txt)
+
+    

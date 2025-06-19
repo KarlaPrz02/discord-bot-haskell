@@ -3,7 +3,7 @@ packages:
 - '.'
 extra-deps: []
 
-# Puedes ignorar esto si no necesitas algo especial:
+# ignore these lines, they are for the example
 # flags: {}
 # extra-package-dbs: []
 
