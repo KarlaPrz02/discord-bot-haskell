@@ -3,11 +3,52 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/topics/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: discord-haskell-1.13.0@sha256:3b25487f1dc866dc598cbbc64affbb1f42302e1271bcb07a7c57de3179dc2fc2,4585
+    pantry-tree:
+      sha256: 3ce1b90f8e301f1fba68b67fa4f4765050e0f879e83100e7e399d290c3f3e091
+      size: 2844
+  original:
+    hackage: discord-haskell-1.13.0
+- completed:
+    hackage: emoji-0.1.0.2@sha256:d995572a5c7dcd28f98eb15c6e387a7b3bda1ac2477ab0d9dba8580d5d7b161f,1273
+    pantry-tree:
+      sha256: dd9ea90a631342e5db0fc21331ade4d563a685e9125d5a3989eefa8e1b96c6c6
+      size: 437
+  original:
+    hackage: emoji-0.1.0.2@sha256:d995572a5c7dcd28f98eb15c6e387a7b3bda1ac2477ab0d9dba8580d5d7b161f,1273
+- completed:
+    hackage: text-1.2.5.0@sha256:ca9f42f21fe6d95d211f24b47f8d7952f79a3b5a476a960c18a2aaedd5771201,8183
+    pantry-tree:
+      sha256: e2c8164c4a5cca57debade69b05ca373bb931ce501b381ff1f505aaa914c5cbd
+      size: 7395
+  original:
+    hackage: text-1.2.5.0@sha256:ca9f42f21fe6d95d211f24b47f8d7952f79a3b5a476a960c18a2aaedd5771201,8183
+- completed:
+    hackage: Cabal-3.6.3.0@sha256:ff97c442b0c679c1c9876acd15f73ac4f602b973c45bde42b43ec28265ee48f4,12459
+    pantry-tree:
+      sha256: b250a53bdb56844f047a2927833bb565b936a289abfa85dfc2a63148d776368a
+      size: 19757
+  original:
+    hackage: Cabal-3.6.3.0@sha256:ff97c442b0c679c1c9876acd15f73ac4f602b973c45bde42b43ec28265ee48f4,12459
+- completed:
+    hackage: parsec-3.1.18.0@sha256:dfbb9835b8abc966b6bbd34340ef5122227b4cf4480062b85ca4c4704f054f98,4535
+    pantry-tree:
+      sha256: 48ae1440eb8eb4fecde2a724c492e830ff2bec341117164302399b417733bf70
+      size: 2810
+  original:
+    hackage: parsec-3.1.18.0@sha256:dfbb9835b8abc966b6bbd34340ef5122227b4cf4480062b85ca4c4704f054f98,4535
+- completed:
+    hackage: Cabal-syntax-3.14.2.0@sha256:16766e2cd18f98bf259d2caf2b507764ebdfff0b16c2fb5b293fc57c1137af6f,7380
+    pantry-tree:
+      sha256: 737f9522e754f8c1610a115a01bb264924a7cde1c931e285f3758ba46f145443
+      size: 10977
+  original:
+    hackage: Cabal-syntax-3.14.2.0@sha256:16766e2cd18f98bf259d2caf2b507764ebdfff0b16c2fb5b293fc57c1137af6f,7380
 snapshots:
 - completed:
-    sha256: a3501d1b61a539371d85305fe73e1134fc08e7c97498a42952455f011fd97ecf
-    size: 684278
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/23/25.yaml
-  original:
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/23/25.yaml
+    sha256: 428ec8d5ce932190d3cbe266b9eb3c175cd81e984babf876b64019e2cbe4ea68
+    size: 590100
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml
+  original: lts-18.28
